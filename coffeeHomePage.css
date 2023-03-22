@@ -62,3 +62,22 @@ a{
     background: url(./img/22DTC-05-MAY-30Percent-OFF-NEW-SUBS-Hompage-Hero-Desktop.webp); 
     background-size: cover;
 }
+.newAndEvent{
+    margin:0 7%;
+    height: 50vh;
+}
+.titleDiv{
+    display: flex;
+}
+.newAndEventElement{
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+.newAndEventElement{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
