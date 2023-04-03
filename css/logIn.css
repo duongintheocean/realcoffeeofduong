@@ -1,0 +1,91 @@
+*{
+    background: url(../img/header-bg.jpg);
+    box-shadow: none;
+    color: black;
+ }
+
+.gradient-custom {
+    background: url(../img/header-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    box-shadow: none;
+ }
+ a{
+    color: black;
+ }
+ button{
+    color: black;
+ }
+ p{
+    color: black;
+ }
+ h2{
+    color: black;
+ }
+ label{
+    margin-top: 5px;
+    color: black;
+ }
+ #snackbar0 {
+   visibility: hidden;
+   min-width: 250px;
+   margin-left: -125px;
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   border-radius: 2px;
+   padding: 16px;
+   position: fixed;
+   z-index: 1;
+   left: 50%;
+   top: 30px;
+   font-size: 17px;
+ }
+ 
+ #snackbar0.show {
+   visibility: visible;
+   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+   animation: fadein 0.5s, fadeout 0.5s 2.5s;
+ }
+ 
+ @-webkit-keyframes fadein {
+   from {top: 0; opacity: 0;} 
+   to {top: 30px; opacity: 1;}
+ }
+ 
+ @keyframes fadein {
+   from {top: 0; opacity: 0;}
+   to {top: 30px; opacity: 1;}
+ }
+ 
+ @-webkit-keyframes fadeout {
+   from {top: 30px; opacity: 1;} 
+   to {top: 0; opacity: 0;}
+ }
+ 
+ @keyframes fadeout {
+   from {top: 30px; opacity: 1;}
+   to {top: 0; opacity: 0;}
+ }
+ #snackbar1 {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  top: 30px;
+  font-size: 17px;
+}
+
+#snackbar1.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+
+}

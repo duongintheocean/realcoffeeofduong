@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: url(./img/header-bg.jpg);
+    background: url(../img/header-bg.jpg);
 }
 header{
     width: 100%;
@@ -54,12 +54,12 @@ a{
     justify-content: space-between;
 } 
 #freeShipDiv{
-
+    margin:0 auto;
     padding-top: 60px; 
     padding-left: 80px; 
     height: 100vh; 
     width:100%; 
-    background: url(./img/22DTC-05-MAY-30Percent-OFF-NEW-SUBS-Hompage-Hero-Desktop.webp); 
+    background: url(../img/22DTC-05-MAY-30Percent-OFF-NEW-SUBS-Hompage-Hero-Desktop.webp); 
     background-size: cover;
 }
 .newAndEvent{
@@ -69,15 +69,20 @@ a{
 .titleDiv{
     display: flex;
 }
-.newAndEventElement{
+.newAndEventContainer{
     display: grid;
     column-gap: 50px;
     grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
 }
 .newAndEventElement{
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+  background-size: cover;
+  border: none;
+  padding-top: 25%;
+  font-size: 30px;
+  text-align: center;
+  width: 326px;
+  height: 270px;
+  color: white;
 }
